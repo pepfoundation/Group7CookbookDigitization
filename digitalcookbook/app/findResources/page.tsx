@@ -4,7 +4,7 @@ import Script from "next/script";
 import { useState, useEffect, useRef } from "react";
 
 //api key and map ID
-const GOOGLE_MAPS_API_KEY = process.env.NEXT_PUBLIC_MAPS_API_KEY;
+const GOOGLE_MAPS_API_KEY = process.env.NEXT_MAPS_API_KEY;
 const MAP_ID = "912b2dfe55b44487cd709d27";
 
 //location type for typescript
